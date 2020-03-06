@@ -39,6 +39,7 @@ function redireccionar(){
 	buscarPdf().then( resp =>{
 	 // location.href= resp;
 	 //window.open(resp);
-	 return '<object width="400" height="400" data="+resp+"></object>';
+	 document.getElementById("pdf").setAtribute("data",resp);
+	 //return '<object width="400" height="400" data="+resp+"></object>';
 	});
 }
