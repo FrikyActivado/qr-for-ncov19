@@ -38,6 +38,7 @@ function numeroReporte(){
 function redireccionar(){
 	buscarPdf().then( resp =>{
 	 // location.href= resp;
-	 window.open(resp);
+	 //window.open(resp);
+	 return '<object width="400" height="400" data="+resp+"></object>';
 	});
 }
