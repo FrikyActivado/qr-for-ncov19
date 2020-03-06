@@ -40,7 +40,7 @@ function redireccionar(){
 	 // location.href= resp;
 	 //window.open(resp);
 	var pdf= document.querySelector("object");
-	pdf.setAttribute("data",resp);
+	pdf.setAttribute("src",resp);
 	 //return '<object width="400" height="400" data="+resp+"></object>';
 	});
 }
