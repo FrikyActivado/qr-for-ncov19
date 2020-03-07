@@ -39,8 +39,8 @@ function redireccionar(){
 	buscarPdf().then( resp =>{
 	 // location.href= resp;
 	 //window.open(resp);
-	var pdf= document.querySelector("object");
-	pdf.setAttribute("src",resp);
+	var pdf= document.querySelector("iframe");
+	pdf.setAttribute("src","https://docs.google.com/viewer?url="+resp+"&embedded=true");
 	 //return '<object width="400" height="400" data="+resp+"></object>';
 	});
 }
