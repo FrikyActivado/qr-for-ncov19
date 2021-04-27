@@ -1,3 +1,7 @@
+Actualizacion 
+Ya no funciona hicieron un cambio en la WHO y ahora los reportes tienen otro formato para nombrarse, debo arreglarlo.
+
+
 # qr-for-ncov19
 a dynamic qrcode that look for the last report of the who about ncov19
 
